@@ -1,0 +1,20 @@
+img {
+  background-size: cover;
+  width: 100%
+}
+
+button {
+  background: #FD5C57;
+  width: 10em;
+  font-size: 20px;
+  padding: 1.2em;
+  color: white;
+  border-radius: 2rem;
+  border: none;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: -40%;
+}
