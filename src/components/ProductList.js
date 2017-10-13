@@ -1,6 +1,6 @@
 import React,{ Component } from 'react'
 import {Link } from 'react-router-dom'
-import '../style/ProductList.css'
+import './ProductList.css'
 
 
 class ProductList extends Component {
@@ -11,9 +11,12 @@ class ProductList extends Component {
                 return(
                   <Link to ={`/products/${product.id}`} key={product.id} >
                   <div className= 'product'>
-                  <h4> {product.title}</h4>
-                   <img src={product.thumbnailUrl} alt=""/>
-                   <p>Price:{product.price}</p>
+                    <h4> {product.title}</h4>
+                    <div className= 'shop'>
+                     <p>Price:$ {product.price}</p>
+                     <p className = 'cart' >Add to cart</p>
+                    </div>
+                     <img src={product.thumbnailUrl} alt=""/>
                   </div>
                   </Link>
                 )

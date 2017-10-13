@@ -1,0 +1,51 @@
+.html, body {
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  width: 20%;
+  height: 20%;
+}
+
+.productList {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  flex-basis: 200px;
+  padding: 1rem;
+  margin: 0.5rem;
+  display: flex;
+}
+
+h4, p {
+  color: grey;
+}
+
+.cart {
+  /*background: grey;*/
+  /*width: 25em;*/
+  font-size: 15px;
+  padding: 1px;
+  color: grey;
+  border-radius: 10rem;
+  border: none;
+  margin-left: 10px;
+}
+
+.shop {
+  width: 300px;
+  margin-left: 10px;
+}
+
+.product {
+  width: 500px;
+  display: flex;
+  border: 1px solid lightgrey;
+  flex-wrap: wrap;
+  flex-basis: 10px;
+}

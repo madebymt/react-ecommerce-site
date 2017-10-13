@@ -11,15 +11,6 @@ class Product extends Component {
             products:Data
         }
     }
-  // componentDidMount(){
-      // fetch(URL)
-      // .then(response => response.json)
-      // .then(json => {
-      //      console.log(json)
-      //     this.setState({
-      //         product:json.prosucts
-      //     })
-      // }) }
 
     render(){
         return (

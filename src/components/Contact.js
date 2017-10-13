@@ -5,13 +5,13 @@ class Contact extends Component {
     render(){
         return (
 
-            <div class="row">
+            <div class='container'>
             <div class="col-sm-6">
 
-               <h5 class="page-header"> say hi here </h5>
-               <form role="form">
+               <h5 className="page-header"> Say hi here </h5>
+               <form className="form">
                    <div class="form-group float-label-control">
-                       <label for="">Name</label>
+                       <label> Name</label>
                        <input type="name" class="form-control" placeholder="Name"/>
                    </div>
                    <div class="form-group float-label-control">
